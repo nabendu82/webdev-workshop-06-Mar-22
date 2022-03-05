@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;500;700&display=swap');
+
+body{
+    background-color: #cceaf2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+h1{
+    color: darkblue;
+}
+
+h3{
+    color: rgb(128, 0, 128);
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(120, 100%, 15%);
+    font-family: 'Sansita Swashed', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+#second-p{
+    color: hsl(38, 90%, 19%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('./images/unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
